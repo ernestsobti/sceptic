@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"69a7009e12eb6d9b","x":-440,"y":-180,"width":250,"height":60,"type":"text","text":"Iodine"},
+		{"id":"fe123cd18d2d43f5","x":-77,"y":-336,"width":250,"height":60,"type":"text","text":"Pagal"},
+		{"id":"f3f6678d8b292615","x":-48,"y":-18,"width":250,"height":60,"type":"text","text":"Ho Jayega"},
+		{"id":"46d9f4f66346a772","x":322,"y":-230,"width":250,"height":60,"type":"text","text":"Phir Road pe nage nachega"}
+	],
+	"edges":[
+		{"id":"0f48caeedcbe0951","fromNode":"69a7009e12eb6d9b","fromSide":"right","toNode":"fe123cd18d2d43f5","toSide":"left"},
+		{"id":"9723b001cf2fc68d","fromNode":"fe123cd18d2d43f5","fromSide":"bottom","toNode":"f3f6678d8b292615","toSide":"top"},
+		{"id":"ce6757be3c641f28","fromNode":"f3f6678d8b292615","fromSide":"right","toNode":"46d9f4f66346a772","toSide":"left"}
+	]
+}
