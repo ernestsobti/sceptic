@@ -1,5 +1,7 @@
 ---
 up: "[[Articles]]"
+aliases:
+  - "221.05"
 ---
 
 

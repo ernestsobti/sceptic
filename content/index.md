@@ -14,6 +14,8 @@ views:
     order:
       - file.name
       - file.backlinks
+      - aliases
+      - file.ctime
 
 ```
 
