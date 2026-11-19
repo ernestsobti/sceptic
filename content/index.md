@@ -1,6 +1,23 @@
 ---
 title: index
 ---
+
+```base
+filters:
+  and:
+    - file.hasTag("index")
+formulas:
+  Related Notes: file.backlinks.length
+views:
+  - type: cards
+    name: View
+    order:
+      - file.name
+      - formula.Related Notes
+
+```
+
+
 ## Chow Chow Fuckers 
 
 > [!info]- This is Python Code for snake Game
@@ -166,13 +183,17 @@ Heji
 ```base
 filters:
   and:
-    - file.name == "File Name"
+    - file.hasTag("index")
+formulas:
+  Related Notes: file.backlinks.length
 views:
-  - type: table
+  - type: cards
     name: View
+    order:
+      - file.name
+      - formula.Related Notes
 
 ```
 
-- [[FT US (6)_ocred.pdf]]
 
-![[FT US (6)_ocred.pdf]]
+
