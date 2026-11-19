@@ -13,7 +13,7 @@ views:
     name: View
     order:
       - file.name
-      - formula.Related Notes
+      - file.backlinks
 
 ```
 
