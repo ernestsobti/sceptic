@@ -244,8 +244,8 @@ plugins:
       includeAll: false
       includedProperties:
         - description
-        - tags
         - aliases
+        - up
       excludedProperties: []
       hidePropertiesView: false
     order: 5
