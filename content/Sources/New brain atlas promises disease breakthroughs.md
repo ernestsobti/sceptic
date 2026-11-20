@@ -2,6 +2,9 @@
 up: "[[Articles]]"
 aliases:
   - "221.05"
+published: 2026-11-19
+url:
+  - https://www.ft.com/content/610fc69e-51ae-4f7a-8e48-c2ce42860ff4?syn-25a6b1a6=1
 ---
 
 

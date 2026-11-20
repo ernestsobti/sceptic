@@ -246,6 +246,8 @@ plugins:
         - description
         - aliases
         - up
+        - published
+        - url
       excludedProperties: []
       hidePropertiesView: false
     order: 5
